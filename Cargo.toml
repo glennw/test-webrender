@@ -1,0 +1,20 @@
+[package]
+name = "test-webrender"
+version = "0.1.0"
+authors = ["Glenn Watson <gw@intuitionlibrary.com>"]
+
+[dependencies.webrender]
+path = "../webrender"
+
+[dependencies.png]
+git = "https://github.com/servo/rust-png"
+
+[dependencies.stb_image]
+git = "https://github.com/servo/rust-stb-image"
+
+[dependencies]
+libc = "*"
+glutin = "*"
+gleam = "*"
+string_cache = "0.1"
+euclid = "*"
